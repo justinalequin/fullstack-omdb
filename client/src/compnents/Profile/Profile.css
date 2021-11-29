@@ -1,0 +1,29 @@
+.form-div-profile {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  margin-top: -150px;
+}
+label {
+  color: black;
+}
+.form-profile .checkbox {
+  font-weight: 400;
+}
+
+.form-profile .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-profile input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-profile input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
